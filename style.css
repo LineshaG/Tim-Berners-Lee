@@ -34,18 +34,17 @@ body {
 }
 
 .menu {
-    list-style: none;
+    width: 100%;
     z-index: 10;
     cursor: pointer;
     position: fixed;
-    top: 10px;
-    right: 30px;
+    top: 0px;
+    background: white;
+    margin-top: 0px;
 }
 
 .links {
-    float: left;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    display: inline;
     padding-left: 9px;
     padding-right: 9px;
     font-size: 20px;
@@ -53,6 +52,7 @@ body {
 
 .links:hover {
     background-color: white;
+    font-size: 25px;
 }
 
 #para {
@@ -61,4 +61,24 @@ body {
 
 .writings {
     font-size: 20px;
+}
+#Contact {
+    background-color: lightcyan;
+}
+#contact1 {
+    color: blue;
+    text-shadow: none;
+}
+#contact1 h3 {
+    display: inline; 
+
+}
+a {
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
+}
+#Writings a {
+    color: blue !important;
+    text-shadow: none !important;
 }
